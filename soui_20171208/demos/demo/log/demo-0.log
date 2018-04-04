@@ -1,0 +1,9 @@
+pid=3608 tid=7468 2017-12-14 09:37:48.057 ALARM log4zd.dll logger "-----------------  log4z thread started!   ----------------------------" LogerManager::run (log4z.cpp):1808
+pid=3608 tid=7468 2017-12-14 09:37:48.057 ALARM log4zd.dll logger "logger id=0 key=main name=demo path=./log/ level=1 display=1" LogerManager::run (log4z.cpp):1820
+pid=3608 tid=7468 2017-12-14 09:37:48.057 ALARM log4zd.dll logger "logger id=1 key=soui name=soui path=./log/ level=1 display=1" LogerManager::run (log4z.cpp):1820
+pid=3608 tid=7880 2017-12-14 09:37:48.057 INFO  demo.exe demo "test=200" wWinMain (demo.cpp):158
+pid=3608 tid=7880 2017-12-14 09:37:48.057 ERROR demo.exe demo "log output using ansi format,str=test, tick=260200104" wWinMain (demo.cpp):159
+pid=3608 tid=7880 2017-12-14 09:37:48.057 ERROR demo.exe demo "log output using unicode format,str=ÖÐÎÄ, tick=260200104" wWinMain (demo.cpp):160
+pid=3608 tid=7880 2017-12-14 09:37:48.776 WARN  souid.dll soui "Warning: no ojbect template of type:1 in SOUI!!" SOUI::SObjectFactoryMgr::CreateObject (SObjectFactory.cpp):61
+pid=3608 tid=7880 2017-12-14 09:37:48.776 WARN  souid.dll soui "Warning: no ojbect template of type:1 in SOUI!!" SOUI::SObjectFactoryMgr::CreateObject (SObjectFactory.cpp):61
+pid=3608 tid=7880 2017-12-14 09:37:48.866 WARN  souid.dll soui "Warning: no ojbect wkewebkit of type:1 in SOUI!!" SOUI::SObjectFactoryMgr::CreateObject (SObjectFactory.cpp):61
